@@ -60,8 +60,16 @@ class GAApp:
         self.canvas.get_tk_widget().pack(fill="both", expand=True)
 
         self.cities = [
-            City(0, 0), City(1, 5), City(2, 8), City(3, 2), City(4, 6),
-            City(5, 1), City(6, 9), City(7, 4), City(8, 7), City(9, 3),
+            City(1, 2),  # A
+            City(8, 8),  # B
+            City(5, 6),  # C
+            City(0, 8),  # D
+            City(2, 7),  # E
+            City(4, 7),  # F
+            City(3, 3),  # G
+            City(9, 5),  # H
+            City(6, 4),  # I
+            City(7, 1),  # J
         ]
 
     def run_ga(self):
